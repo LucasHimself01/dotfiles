@@ -1,0 +1,35 @@
+font:
+  normal:
+    family: Hack Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: Hack Nerd Font Mono
+    style: Bold
+
+  italic:
+    family: Hack Nerd Font Mono
+    style: Regular
+
+  bold_italic:
+    family: Hack Nerd Font Mono
+    style: Bold
+
+  size: 15
+
+alt_send_esc: false
+
+window:
+  opacity: 1
+  decorations: None
+
+key_binds:
+   - { key: Q,      mods: Command,            action: None             }
+   - { key: W,      mods: Command,            action: None             }
+
+import:
+  # uncomment the flavour you want below:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-macchiato.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-frappe.yml
+#  - ~/.config/alacritty/catppuccin/catppuccin-latte.yml
